@@ -47,9 +47,9 @@ Quad_4_Dir = "/home/kdocher/code/SCTCam/Mono_shower_4"
 Quad_5_Dir = "/home/kdocher/code/SCTCam/Quad_laser"
 Quad_6_Dir = "/home/kdocher/code/SCTCam/Muon"
 
-############
-## Models ##
-############
+##########
+# Models #
+##########
 def define_generator(epoch, latent_dim, n_classes=number_of_classes):
     gen_model_dir = "models/generator_model%04d.h5" %(epoch)
     model = load_model(gen_model_dir)
